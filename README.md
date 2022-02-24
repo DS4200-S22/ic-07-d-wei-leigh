@@ -1,8 +1,7 @@
 # ic-07
 ic-07 - Intro to D3
 
-Link to GitHub Pages: `[insert your clickable hyperlink here]`
-
+Link to GitHub Pages: https://ds4200-s22.github.io/ic-07-d-wei-leigh/
 ## Purpose
 
 The purpose of this assignment is to start learning how to use D3.js to build custom visualizations.  
