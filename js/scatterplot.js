@@ -24,7 +24,7 @@ d3.csv("/data/scatter.csv").then((data) => {
 
   // Scales the height of each bar to the max interval   
   let yScale3 = d3.scaleLinear()
-            .domain([0,maxY1])
+            .domain([0,maxY3])
             .range([height-margin.bottom,margin.top]);
 
   // Determines the maximum X value 
@@ -85,8 +85,8 @@ const mouseover3 = function(event, d) {
 
 // Positions the tooltip next to the mouse
 const mousemove3 = function(event, d) {
-  tooltip3.style("left", (event.x)+"px") 
-          .style("top", (event.y + yTooltipOffset) +"px"); 
+  tooltip3.style("left", (event.pageX)+"px") 
+          .style("top", (event.pageY + yTooltipOffset) +"px"); 
 }
 
 // Makes the tooptip's displayed information 0

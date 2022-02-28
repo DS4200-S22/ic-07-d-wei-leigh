@@ -89,8 +89,8 @@ const mouseover1 = function(event, d) {
 
 // Positions the tooltip next to the mouse
 const mousemove1 = function(event, d) {
-  tooltip1.style("left", (event.x)+"px") 
-          .style("top", (event.y + yTooltipOffset) +"px"); 
+  tooltip1.style("left", (event.pageX)+"px") 
+          .style("top", (event.pageY + yTooltipOffset) +"px"); 
 }
 
 // Makes the tooptip's displayed information 0
